@@ -6,3 +6,6 @@ Integrated JMonkey 3D Model rendering engine with Vuforia computer vision image 
 
 
 Using Vuforia 5-0-5 and JME 3.0
+
+
+![alt tag](./ninja.png)
