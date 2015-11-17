@@ -119,8 +119,8 @@ public class JMESurfaceView extends SimpleApplication implements AnimEventListen
         // Load a model from  OgreXML + material + texture
         Spatial ninja = assetManager.loadModel("Models/Ninja/Ninja.mesh.xml");
         ninja.setName(Constants.MARKER_0); //Set name to identify which 3d model to show
-        ninja.scale(02f, 2f, 2f);
-        ninja.rotate(0.0f, 0.0f, 0.0f);
+        ninja.scale(2f, 2f, 2f);
+        ninja.rotate(0.0f, 3.14f, 0.0f); //Rotate ninja 3.14 radians, 180 degrees
         ninja.setLocalTranslation(0.0f, -2.5f, -50.0f);
 
         rootNode.attachChild(ninja); //Atach node to rootNode
